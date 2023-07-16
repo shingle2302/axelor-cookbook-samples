@@ -42,7 +42,7 @@ public class ReaderController extends JpaSupport {
             User newUser  =_readerService.assignNewUser(reader);
         }
 
-        response.setFlash("命叔说：读者配套的登录用户设置好了"); // 前端弹出消息
+        response.setAlert("命叔说：读者配套的登录用户设置好了"); // 前端弹出消息
         response.setReload(true); // 要求前端重新加载数据
     }
 

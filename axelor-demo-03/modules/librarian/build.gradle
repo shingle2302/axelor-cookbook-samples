@@ -1,10 +1,9 @@
-apply plugin: 'com.axelor.app-module'
+apply plugin: 'com.axelor.app'
 
 axelor {
     title "Library Management System"
     version "0.1.0"
     description ""
-    removable = false
 }
 
 dependencies {
